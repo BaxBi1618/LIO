@@ -1,0 +1,22 @@
+:root{
+    --background_color:#edede9;
+    --first_color:#0a1128;
+    --second_color:#1e96fc;
+    --third_color:#1976d2;
+    --fourth_color:#ef233c;
+    --accent:#ffba08;
+    --accent_2:#0a1128;
+}
+
+*{
+    font-family: "Amarante", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+html{
+    background-color: var(--background_color);
+}

@@ -68,6 +68,9 @@ switch($request){
         }
         break;
 
+    case '/expenses':
+        require_once __DIR__ . '/views/expenses/expensesDashboard.php';
+        break;
 
     default:
     http_response_code(404);

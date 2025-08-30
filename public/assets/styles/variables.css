@@ -1,3 +1,5 @@
+@import url(components_styles/header.css);
+
 :root{
     --background_color:#edede9;
     --first_color:#0a1128;

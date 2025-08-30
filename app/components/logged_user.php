@@ -1,5 +1,5 @@
 <main id="logged_user">
-    <a href="checklists.php">
+    <a href="/expenses">
         <section class="titles">
             <img src="/images/expenses.png" alt="Wydatki">
             <span class="highlight">Wydatki</span>

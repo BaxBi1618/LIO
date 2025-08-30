@@ -1,0 +1,11 @@
+@import url(variables.css);
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#managmentListDiv{
+    width: 645px;
+    height: 705px;
+    background-color: var(--first_color);
+}

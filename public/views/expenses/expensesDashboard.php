@@ -12,9 +12,12 @@
     ?>
     <main>
         <div id="managmentListDiv">
-d
+            <div id="buttonDiv">
+                <a href="" id="revenueButton">Przychody</a>
+                <a href="" id="expensesButton">Wydatki</a>
+            </div>
         </div>
-        <section>
+        <section id="centerDiv">
             <div id="monthNameDiv"></div>
             <div id="graphDiv"></div>
         </section>

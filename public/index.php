@@ -69,7 +69,7 @@ switch($request){
         break;
 
     case '/expenses':
-        require_once __DIR__ . '/views/expenses/expensesDashboard.php';
+        require_once __DIR__ . '/../app/handlers/expenses_handler.php';
         break;
 
     default:

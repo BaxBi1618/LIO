@@ -4,7 +4,7 @@ function db_connect()
     $host = "localhost";
     $user = "root";
     $pass = "";
-    $db   = "e-wydatki";
+    $db   = "lio";
 
     $conn = mysqli_connect($host, $user, $pass, $db);
 

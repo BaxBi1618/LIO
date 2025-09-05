@@ -5,7 +5,6 @@ a {
 }
 
 form {
-  margin: 100px 0;
   background-color: $second-color;
   width: 80%;
   border: 3px solid $accent-2;
@@ -14,25 +13,13 @@ form {
   text-align: center;
 
   input {
-    margin: 5px 0 40px 0;
-    border-radius: 30px;
-    border: 2px solid $accent-2;
-    height: 30px;
     width: 450px;
-    padding: 20px;
-    text-align: center;
-    font-size: 20px;
   }
 
   button {
-    padding: 15px;
-    width: 200px;
-    border-radius: 30px;
     background-color: $first-color;
     color: white;
-    border: 0;
-    font-size: 20px;
-    cursor: pointer;
+    
     
     &:hover {
       background-color: $third-color;
@@ -71,12 +58,6 @@ form {
     max-height: fit-content;
     margin-left: 20px;
   }
-}
-
-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 .form_group {

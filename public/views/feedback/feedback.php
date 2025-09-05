@@ -14,7 +14,7 @@ $Error= ErrorHandler::fromSession();
 <head>
     <meta charset=UTF-8>
     <title>Feedback</title>
-    <link rel="stylesheet" href="/assets/styles/feedback.css">
+    <link rel="stylesheet" href="/assets/styles/subpages/feedback.css">
 </head>
 <body>
     <?php include_once render_view(APP_PATH, 'components/header.php'); ?>

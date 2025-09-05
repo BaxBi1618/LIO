@@ -11,7 +11,7 @@ $Auth->redirectIfNotLogged();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expenses</title>
-    <link rel="stylesheet" href="/assets/styles/expenses.css">
+    <link rel="stylesheet" href="/assets/styles/subpages/expenses.css">
     <script src="/assets/js/expenses.js"></script>
 </head>
 <body>

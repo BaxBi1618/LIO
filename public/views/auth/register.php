@@ -15,7 +15,7 @@ $Error= ErrorHandler::fromSession();
     <head>
         <meta charset="UTF-8" />
         <title>Rejestracja</title>
-        <link rel="stylesheet" href="/assets/styles/register.css" />
+        <link rel="stylesheet" href="/assets/styles/subpages/register.css" />
     </head>
     <body>
         <?php include_once render_view(APP_PATH, 'components/header.php'); ?>

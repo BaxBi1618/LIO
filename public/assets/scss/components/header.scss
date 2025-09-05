@@ -1,10 +1,10 @@
 header {
-  background-color: var(--first_color);
+  background-color: $first-color;
   color: white;
   display: flex;
   justify-content: space-between;
-  padding: 10px 50px;
   align-items: center;
+  padding: 10px 50px;
   height: 90px;
 
   section {
@@ -23,7 +23,7 @@ header {
 
   h1 {
     letter-spacing: 4px;
-    color: var(--accent);
+    color: #ffba08;
   }
 }
 
@@ -31,15 +31,27 @@ header {
   padding: 8px;
   width: 150px;
   border-radius: 30px;
-  background-color: var(--second_color);
+  background-color: $second-color;
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  margin: 0 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 
   &:hover {
-    background-color: var(--fourth_color);
+    background-color: $fourth-color;
     color: white;
   }
+}
+
+h4 {
+  padding-left: 40px;
+}
+
+.first-letter {
+  color: #ffba08;
+  font-weight: bold;
 }

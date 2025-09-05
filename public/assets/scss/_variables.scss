@@ -10,7 +10,25 @@
 }
 
 $font-family: "Amarante", serif;
-$primary-color: var(--first_color);
-$secondary-color: var(--second_color);
-$accent-color: var(--accent);
-$accent-color-2: var(--accent_2);
+$first_color: var(--first_color);
+$second_color: var(--second_color);
+$third_color: var(--third_color);
+$fourth_color: var(--fourth_color);
+$fifth_color: var(--fifth_color);
+$accent: var(--accent);
+$accent_2: var(--accent_2);
+
+* {
+  font-family: $font-family;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--background_color);
+}
+
+@import 'components/header.scss';

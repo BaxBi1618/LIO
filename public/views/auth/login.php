@@ -14,7 +14,7 @@ $Error= ErrorHandler::fromSession();
 <html lang="pl">
     <head>
         <title>Login</title>
-        <link rel="stylesheet" href="/assets/styles/login.css" />
+        <link rel="stylesheet" href="/assets/styles/subpages/login.css" />
     </head>
     <body>
         <?php include_once render_view(APP_PATH, 'components/header.php'); ?>

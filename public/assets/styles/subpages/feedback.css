@@ -1,0 +1,145 @@
+:root {
+  --background_color: #edede9;
+  --first_color: #0a1128;
+  --second_color: #1e96fc;
+  --third_color: #1976d2;
+  --fourth_color: #ef233c;
+  --fifth_color: #006400;
+  --accent: #ffba08;
+  --accent_2: #0a1128;
+}
+
+* {
+  font-family: "Amarante", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--background_color);
+}
+
+header {
+  background-color: var(--first_color);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  height: 90px;
+}
+header section {
+  display: flex;
+}
+header img {
+  margin: 5px 20px 0 0;
+  filter: invert(1);
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+header h1 {
+  letter-spacing: 4px;
+  color: #ffba08;
+}
+
+.account_buttons {
+  padding: 8px;
+  width: 150px;
+  border-radius: 30px;
+  background-color: var(--second_color);
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.account_buttons:hover {
+  background-color: var(--fourth_color);
+  color: white;
+}
+
+h4 {
+  padding-left: 40px;
+}
+
+.first-letter {
+  color: #ffba08;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+form textarea {
+  width: 600px;
+  height: 400px;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-size: 20px;
+  padding: 10px;
+  resize: vertical;
+}
+form button {
+  padding: 15px;
+  width: 200px;
+  border-radius: 30px;
+  background-color: var(--fourth_color);
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  align-self: center;
+  transition: background-color 0.3s ease;
+}
+form button:hover {
+  background-color: var(--third_color);
+}
+form label {
+  background-color: var(--first_color);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-left: 15px;
+  justify-self: start;
+}
+form select {
+  width: 600px;
+  height: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+form .error {
+  background-color: #ef233c;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  justify-self: end;
+  margin-right: 15px;
+}
+form .labelDiv {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+/*# sourceMappingURL=feedback.css.map */

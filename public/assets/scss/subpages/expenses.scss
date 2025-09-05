@@ -1,0 +1,86 @@
+@import '../variables';
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+#leftDiv, #graphDiv, #savingsDiv {
+  border: 2px solid #ced4da;
+  transition: border-color 0.3s ease;
+}
+
+#leftDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 50px;
+  padding: 30px;
+  background-color: #dee2e6;
+}
+
+#leftDiv:hover,
+#graphDiv:hover,
+#savingsDiv:hover {
+  border-color: gray;
+}
+
+#monthNameDiv {
+  width: 575px;
+  height: 105px;
+  background-color: $third-color;
+  box-shadow: 15px 15px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#graphDiv {
+  width: 575px;
+  height: 350px;
+  background-color: #dee2e6;
+}
+
+#savingsDiv {
+  width: 450px;
+  height: 240px;
+  background-color: #dee2e6;
+}
+
+#buttonDiv {
+  display: flex;
+  justify-content: space-around;
+
+  a, #revenueButton, #expensesButton {
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 30px;
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  #revenueButton {
+    background-color: $second-color;
+
+    &:hover {
+      background-color: $fifth-color;
+    }
+  }
+
+  #expensesButton {
+    background-color: $second-color;
+
+    &:hover {
+      background-color: $fourth-color;
+    }
+  }
+}

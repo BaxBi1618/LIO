@@ -1,7 +1,14 @@
+@import '../variables';
+
 #logged_user {
   display: flex;
   padding: 30px;
   gap: 50px;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
 }
 
 .titles {
@@ -13,23 +20,19 @@
   align-items: center;
   gap: 30px;
   font-size: 20px;
+  color: black; // tu musisz ustawić konkretny kolor, bo w CSS był pusty var(--)
   border-radius: 10px;
-  background-color: var(--third_color);
-}
+  background-color: $third-color;
 
-.titles img {
-  width: 128px;
-  height: 128px;
+  img {
+    width: 128px;
+    height: 128px;
+  }
 }
 
 .highlight {
   padding: 10px;
   border-radius: 5px;
   display: inline-block;
-  background-color: var(--accent);
-}
-
-#logged_user a {
-  text-decoration: none;
-  color: black;
+  background-color: $accent;
 }

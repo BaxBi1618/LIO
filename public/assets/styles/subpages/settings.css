@@ -1,0 +1,116 @@
+:root {
+  --background_color: #edede9;
+  --first_color: #0a1128;
+  --second_color: #1e96fc;
+  --third_color: #1976d2;
+  --fourth_color: #ef233c;
+  --fifth_color: #006400;
+  --accent: #ffba08;
+  --accent_2: #0a1128;
+}
+
+* {
+  font-family: "Amarante", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--background_color);
+}
+
+header {
+  background-color: var(--first_color);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  height: 90px;
+}
+header section {
+  display: flex;
+}
+header img {
+  margin: 5px 20px 0 0;
+  filter: invert(1);
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+header h1 {
+  letter-spacing: 4px;
+  color: #ffba08;
+}
+
+.account_buttons {
+  padding: 8px;
+  width: 150px;
+  border-radius: 30px;
+  background-color: var(--second_color);
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.account_buttons:hover {
+  background-color: var(--fourth_color);
+  color: white;
+}
+
+h4 {
+  padding-left: 40px;
+}
+
+.first-letter {
+  color: #ffba08;
+  font-weight: bold;
+}
+
+main {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+main hr {
+  border: 1px solid black;
+  margin: 15px;
+}
+
+form section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 50px;
+}
+form input {
+  margin: 5px 0 40px 0;
+  border-radius: 30px;
+  border: 2px solid var(--accent_2);
+  height: 30px;
+  width: 500px;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+form button {
+  color: white;
+  background-color: #bc4749;
+  padding: 10px 20px;
+  border: 2px solid black;
+  width: 300px;
+  font-size: 15px;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=settings.css.map */

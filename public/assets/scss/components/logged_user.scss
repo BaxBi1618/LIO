@@ -1,4 +1,4 @@
-@import '../variables';
+@use '../globals' as *;
 
 #logged_user {
   display: flex;

@@ -1,7 +1,10 @@
 @mixin flex-center {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
+  text-align: center;
+  padding: 50px;
 }
 
 @mixin flex-column-center {

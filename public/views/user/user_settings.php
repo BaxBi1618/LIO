@@ -12,7 +12,7 @@
 
     use App\User;
     use App\Auth;
-    $Error;
+    $Error = [];
     $Auth = new Auth();
 
     $Auth->redirectIfNotLogged();

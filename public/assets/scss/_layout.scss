@@ -1,7 +1,9 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
 main {
   width: 100%;
-  padding: 20px;
-  text-align: center;
+  @include flex-center;
 }
 
 main hr {
@@ -19,7 +21,7 @@ form section {
 form input {
   margin: 5px 0 40px 0;
   border-radius: 30px;
-  border: 2px solid $accent-color-2;
+  border: 2px solid $accent_2;
   height: 30px;
   padding: 20px;
   width: 500px;

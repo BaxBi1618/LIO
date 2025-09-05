@@ -1,4 +1,4 @@
-@import '../variables';
+@use '../globals' as *;
 
 .box {
   background-color: $second-color;

@@ -1,11 +1,4 @@
-@import '../variables';
-
-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 50px;
-}
+@use '../globals' as *;
 
 #leftDiv, #graphDiv, #savingsDiv {
   border: 2px solid #ced4da;

@@ -1,17 +1,78 @@
-/* Error: Undefined variable.
- *   ,
- * 2 |   background-color: $first-color;
- *   |                     ^^^^^^^^^^^^
- *   '
- *   public\assets\scss\components\header.scss 2:21  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 2 \2502    background-color: $first-color;\d\a   \2502                      ^^^^^^^^^^^^\a   \2575 \a   public\\assets\\scss\\components\\header.scss 2:21  root stylesheet";
+:root {
+  --background_color: #edede9;
+  --first_color: #0a1128;
+  --second_color: #1e96fc;
+  --third_color: #1976d2;
+  --fourth_color: #ef233c;
+  --fifth_color: #006400;
+  --accent: #ffba08;
+  --accent_2: #0a1128;
 }
+
+* {
+  font-family: "Amarante", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--background_color);
+}
+
+header {
+  background-color: var(--first_color);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  height: 90px;
+}
+header section {
+  display: flex;
+}
+header img {
+  margin: 5px 20px 0 0;
+  filter: invert(1);
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+header h1 {
+  letter-spacing: 4px;
+  color: #ffba08;
+}
+
+.account_buttons {
+  padding: 8px;
+  width: 150px;
+  border-radius: 30px;
+  background-color: var(--second_color);
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.account_buttons:hover {
+  background-color: var(--fourth_color);
+  color: white;
+}
+
+h4 {
+  padding-left: 40px;
+}
+
+.first-letter {
+  color: #ffba08;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=header.css.map */

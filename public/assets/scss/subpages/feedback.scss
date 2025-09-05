@@ -1,13 +1,6 @@
-@import '../variables';
-
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+@use '../globals' as *;
 
 form {
-  margin-top: 70px;
   display: flex;
   flex-direction: column;
   gap: 20px;

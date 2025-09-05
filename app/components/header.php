@@ -1,3 +1,6 @@
+<head>
+    <link rel="stylesheet" href="/assets/styles/main.css">
+</head>
 <header>
     <a href="/dashboard">
         <h1>LIO</h1>

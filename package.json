@@ -1,0 +1,24 @@
+{
+  "name": "lio",
+  "version": "1.0.0",
+  "description": "**LIO** to autorska aplikacja webowa, której celem jest wspieranie użytkowników w organizacji codziennych zadań i obowiązków. Projekt łączy prostotę interfejsu z funkcjonalnością, umożliwiając skuteczne zarządzanie czasem i projektami osobistymi.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch public/assets/scss:public/assets/styles",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaxBi1618/LIO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BaxBi1618/LIO/issues"
+  },
+  "homepage": "https://github.com/BaxBi1618/LIO#readme",
+  "devDependencies": {
+    "sass": "^1.92.0"
+  }
+}

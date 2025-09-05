@@ -1,0 +1,22 @@
+# Node
+/node_modules/
+
+# Composer
+/vendor/
+
+# Sass compiled files
+/public/assets/styles/main.css
+/public/assets/styles/main.css.map
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs / temporary files
+*.log
+*.tmp
+*.cache

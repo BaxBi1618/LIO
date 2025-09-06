@@ -1,8 +1,15 @@
 @use '../globals' as *;
 
-#leftDiv, #graphDiv, #savingsDiv {
+#leftDiv, #graphDiv, #savingsDiv, #incomeDiv {
   border: 2px solid #ced4da;
+  background-color: #dee2e6;
   transition: border-color 0.3s ease;
+}
+
+#incomeDiv{
+  width: 500px;
+  height: 400px;
+  overflow-y: scroll;
 }
 
 #leftDiv {
@@ -11,12 +18,12 @@
   justify-content: center;
   row-gap: 50px;
   padding: 30px;
-  background-color: #dee2e6;
 }
 
 #leftDiv:hover,
 #graphDiv:hover,
-#savingsDiv:hover {
+#savingsDiv:hover,
+#incomeDiv:hover {
   border-color: gray;
 }
 
@@ -24,7 +31,6 @@
   width: 575px;
   height: 105px;
   background-color: $third-color;
-  box-shadow: 15px 15px 4px rgba(0, 0, 0, 0.25);
   color: white;
   font-size: 50px;
   display: flex;
@@ -35,13 +41,11 @@
 #graphDiv {
   width: 575px;
   height: 350px;
-  background-color: #dee2e6;
 }
 
 #savingsDiv {
   width: 450px;
   height: 240px;
-  background-color: #dee2e6;
 }
 
 #buttonDiv {

@@ -7,10 +7,11 @@
 
     $stmt = $conn->prepare("
         SELECT 
+            expenses.type,
+            expenses.amount,
             expenses_cat.name AS category_name,
             expenses_cat.bg_color AS category_bg_color,
-            expenses_cat.text_color AS category_text_color,
-            expenses.amount
+            expenses_cat.text_color AS category_text_color
         FROM expenses
         JOIN expenses_cat ON expenses.category_id = expenses_cat.id
         WHERE expenses.user_id = ?

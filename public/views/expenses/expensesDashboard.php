@@ -28,6 +28,21 @@ $Auth->redirectIfNotLogged();
         </section>
         <div id="graphDiv"></div>
         <div id="savingsDiv"></div>
+        <div id="incomeDiv">
+            <h2>Przychody</h2>
+            <?php 
+            foreach ($expenses as $expense) {
+                if ($expense['type'] === 'income') {
+                    ?>
+                    <div>
+                        <span class="category"><?= $expense['category_name'] ?></span>
+                        <span class="amount"><?= $expense['amount'] ?> zł</span>
+                    </div>
+                    <?php
+                }
+            }
+            ?>
+        </div>
     </main>
 </body>
 </html>

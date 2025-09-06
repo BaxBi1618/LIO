@@ -30,6 +30,7 @@ main {
   align-items: center;
   text-align: center;
   padding: 50px;
+  row-gap: 30px;
 }
 
 form section {

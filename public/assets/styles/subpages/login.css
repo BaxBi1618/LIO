@@ -63,6 +63,14 @@ button {
   cursor: pointer;
 }
 
+#errorDiv {
+  background-color: #ef233c;
+  color: white;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
 header {
   background-color: var(--first_color);
   color: white;
@@ -131,13 +139,6 @@ form input {
 form button {
   background-color: var(--first_color);
   color: white;
-}
-form #errorDiv {
-  background-color: #ef233c;
-  color: white;
-  margin-top: 30px;
-  padding: 15px;
-  border-radius: 20px;
 }
 
 /*# sourceMappingURL=login.css.map */

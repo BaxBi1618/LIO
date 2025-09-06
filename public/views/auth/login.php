@@ -1,5 +1,5 @@
 <?php
-// todo zrobić zapobieganie xss
+//TODO zrobić zapobieganie xss
 
 use App\Auth;
 use App\ErrorHandler;
@@ -8,6 +8,8 @@ $Auth = new Auth();
 $Auth->redirectIfLogged();
 
 $Error= ErrorHandler::fromSession();
+
+//TODO poprawić obsługę błędów
 
 ?>
 <!DOCTYPE html>
@@ -28,11 +30,6 @@ $Error= ErrorHandler::fromSession();
                 <?php if($Error->hasError("dateError")):?>
                     <div id="errorDiv">
                         <?= $Error->getError("dateError")?>
-                    </div>
-                <?php endif; ?>
-                <?php if($Error->hasError("logsError")):?>
-                    <div id="errorDiv">
-                        <?= $Error->getError("logsError")?>
                     </div>
                 <?php endif; ?>
             </form>

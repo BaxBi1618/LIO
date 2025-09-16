@@ -1,27 +1,3 @@
-:root {
-  --background_color: #edede9;
-  --first_color: #0a1128;
-  --second_color: #1e96fc;
-  --third_color: #1976d2;
-  --fourth_color: #ef233c;
-  --fifth_color: #006400;
-  --accent: #ffba08;
-  --accent_2: #0a1128;
-}
-
-* {
-  font-family: "Amarante", serif;
-  font-weight: 400;
-  font-style: normal;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html {
-  background-color: var(--background_color);
-}
-
 main {
   width: 100%;
   display: flex;
@@ -40,6 +16,19 @@ form section {
   gap: 50px;
 }
 
+* {
+  font-family: "Amarante", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f8f9fa;
+}
+
 hr {
   border: 1px black solid;
   margin: 15px;
@@ -48,7 +37,7 @@ hr {
 input {
   margin: 5px 0 40px 0;
   border-radius: 30px;
-  border: 2px solid var(--accent_2);
+  border: 2px solid #0a1128;
   height: 30px;
   padding: 20px;
   text-align: center;
@@ -73,7 +62,7 @@ button {
 }
 
 header {
-  background-color: var(--first_color);
+  background-color: #0a1128;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -101,7 +90,7 @@ header h1 {
   padding: 8px;
   width: 150px;
   border-radius: 30px;
-  background-color: var(--second_color);
+  background-color: #1e96fc;
   text-decoration: none;
   color: black;
   margin: 0 10px;
@@ -112,7 +101,7 @@ header h1 {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 .account_buttons:hover {
-  background-color: var(--fourth_color);
+  background-color: #ef233c;
   color: white;
 }
 
@@ -131,9 +120,9 @@ a {
 }
 
 form {
-  background-color: var(--second_color);
+  background-color: #1e96fc;
   width: 80%;
-  border: 3px solid var(--accent_2);
+  border: 3px solid #0a1128;
   padding: 50px;
   font-size: 20px;
   text-align: center;
@@ -142,11 +131,11 @@ form input {
   width: 450px;
 }
 form button {
-  background-color: var(--first_color);
+  background-color: #0a1128;
   color: white;
 }
 form button:hover {
-  background-color: var(--third_color);
+  background-color: #dee2e6;
 }
 form .inputDiv {
   width: 450px;
@@ -168,7 +157,7 @@ form .error {
   margin-right: 20px;
 }
 form label {
-  background-color: var(--first_color);
+  background-color: #0a1128;
   color: white;
   padding: 10px;
   border-radius: 5px;

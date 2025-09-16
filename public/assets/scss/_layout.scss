@@ -1,9 +1,8 @@
-@use 'variables' as *;
-@use 'mixins' as *;
+@use 'mixins';
 
 main {
   width: 100%;
-  @include flex-center;
+  @include mixins.flex-center;
 }
 
 form section {

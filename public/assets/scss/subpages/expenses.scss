@@ -1,9 +1,7 @@
-@use '../globals' as *;
+@use '../globals' as globals;
 
 #leftDiv, #graphDiv, #savingsDiv, #incomeDiv {
-  border: 2px solid #ced4da;
-  background-color: #dee2e6;
-  transition: border-color 0.3s ease;
+  @include globals.title-style;
 }
 
 #incomeDiv{
@@ -20,17 +18,10 @@
   padding: 30px;
 }
 
-#leftDiv:hover,
-#graphDiv:hover,
-#savingsDiv:hover,
-#incomeDiv:hover {
-  border-color: gray;
-}
-
 #monthNameDiv {
   width: 575px;
   height: 105px;
-  background-color: $third-color;
+  background-color: globals.$titles_color;
   color: white;
   font-size: 50px;
   display: flex;
@@ -66,18 +57,18 @@
   }
 
   #revenueButton {
-    background-color: $second-color;
+    background-color: globals.$second-color;
 
     &:hover {
-      background-color: $fifth-color;
+      background-color: globals.$fifth-color;
     }
   }
 
   #expensesButton {
-    background-color: $second-color;
+    background-color: globals.$second-color;
 
     &:hover {
-      background-color: $fourth-color;
+      background-color: globals.$fourth-color;
     }
   }
 }

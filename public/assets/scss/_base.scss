@@ -1,5 +1,18 @@
-@use 'variables' as *;
-@use 'mixins' as *;
+@use 'variables';
+
+* {
+  font-family: variables.$font-family;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: variables.$background_color;
+}
+
 
 hr {
   border: 1px black solid;
@@ -9,7 +22,7 @@ hr {
 input {
   margin: 5px 0 40px 0;
   border-radius: 30px;
-  border: 2px solid $accent_2;
+  border: 2px solid variables.$accent_2;
   height: 30px;
   padding: 20px;
   text-align: center;

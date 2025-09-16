@@ -1,3 +1,5 @@
+@use 'variables' as variables;
+
 @mixin flex-center {
   display: flex;
   flex-wrap: wrap;
@@ -13,4 +15,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 50px;
+  row-gap: 30px;
+}
+
+@mixin title-style {
+  background-color: variables.$titles_color;
+  border: 2px solid variables.$border_color_1;
+  transition: border-color 0.3s ease;
+
+  &:hover{
+    border-color: variables.$border_color_2;
+  }
 }

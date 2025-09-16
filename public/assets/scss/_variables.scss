@@ -1,32 +1,21 @@
-:root {
-  --background_color: #edede9;
-  --first_color: #0a1128;
-  --second_color: #1e96fc;
-  --third_color: #1976d2;
-  --fourth_color: #ef233c;
-  --fifth_color: #006400;
-  --accent: #ffba08;
-  --accent_2: #0a1128;
-}
-
+    //variables
+//fonts
 $font-family: "Amarante", serif;
-$first_color: var(--first_color);
-$second_color: var(--second_color);
-$third_color: var(--third_color);
-$fourth_color: var(--fourth_color);
-$fifth_color: var(--fifth_color);
-$accent: var(--accent);
-$accent_2: var(--accent_2);
 
-* {
-  font-family: $font-family;
-  font-weight: 400;
-  font-style: normal;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+//titles
+$titles_color: #dee2e6;
 
-html {
-  background-color: var(--background_color);
-}
+//borders
+$border_color_1: #ced4da;
+$border_color_2: gray;
+
+//unsorted
+$background_color:#f8f9fa;
+$first-color: #0a1128;
+$second-color: #1e96fc;
+$fourth-color: #ef233c;
+$fifth-color: #006400;
+$accent_2: #0a1128;
+
+//test
+$test_color: #1d3557;
